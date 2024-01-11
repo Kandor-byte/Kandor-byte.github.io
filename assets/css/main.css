@@ -224,6 +224,18 @@ input, select, textarea {
 
 		}
 
+		.intro {
+			display: flex;
+			flex-direction: row;
+		}
+
+		@media screen and (max-width: 736px) {
+			.intro {
+			display: flex;
+			flex-direction: column;
+		}
+		}
+
 /* Icons */
 
 	.icon {
